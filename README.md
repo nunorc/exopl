@@ -15,11 +15,14 @@ next using pipes.
 
 To build the tool just clone the repository and:
 
-	$ make
+    $ mkdir build ; cd build
+	$ cmake ..
+    $ make
 
+[cmake](https://cmake.org/),
 [libcurl](https://curl.haxx.se/libcurl/) and 
 [jsoncpp](https://github.com/open-source-parsers/jsoncpp) are
-required. The `exopl` binary should be available in the local
+required. The `exopl` binary should be available in the build
 directory:
 
 	$ ./exopl 

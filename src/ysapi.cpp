@@ -1,4 +1,6 @@
 
+#include <sstream>
+
 #include "ysapi.hpp"
 
 ysapi::ysapi(const std::string url) {
